@@ -1,10 +1,12 @@
 <template>
-<div>
-</div>
+  <div>
+    <h1>footer</h1>
+  </div>
 </template>
 <script>
 export default {
-}
+  name: "nav-footer",
+};
 </script>
 <style lang='scss' scoped>
 </style>

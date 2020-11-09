@@ -1,11 +1,10 @@
 <template>
-<div>
-</div>
+  <div><h1>header</h1></div>
 </template>
 <script>
 export default {
-    name:'nav-header'
-}
+  name: "nav-header",
+};
 </script>
 <style lang='scss' scoped>
 </style>

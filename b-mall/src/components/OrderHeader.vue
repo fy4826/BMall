@@ -1,9 +1,9 @@
 <template>
-  <div>detail</div>
+  <div>oheader</div>
 </template>
 <script>
 export default {
-  name: "detail",
+  name: "order-header",
 };
 </script>
 <style lang='scss' scoped>
