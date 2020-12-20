@@ -49,7 +49,7 @@ export default new Router({
                 {
                     path: 'list',
                     name: 'order-list',
-                    component: () => import('./pages/orderList.vue')
+                    component: () => import('./pages/orderlist.vue')
                 },
                 {
                     path: 'pay',
