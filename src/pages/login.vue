@@ -7,16 +7,19 @@
       <div class="container">
         <div class="login-form">
           <h3>
-            <span class="checked">账号登录</span><span class="sep-line">|</span
-            ><span>扫码登录</span>
+            <span class="checked">账号登录</span>
           </h3>
           <div class="input">
-            <input type="text" placeholder="请输入帐号" v-model="username" />
+            <input
+              type="text"
+              placeholder="请输入帐号(默认admin)"
+              v-model="username"
+            />
           </div>
           <div class="input">
             <input
               type="password"
-              placeholder="请输入密码"
+              placeholder="请输入密码(默认admin)"
               v-model="password"
             />
           </div>
@@ -25,20 +28,22 @@
           </div>
           <div class="tips">
             <div class="sms" @click="register">手机短信登录/注册</div>
-            <div class="reg">立即注册<span>|</span>忘记密码？</div>
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
       <div class="footer-link">
-        <a href="https://www.imooc.com/u/1343480" target="_blank"
-          >河畔一角主页</a
+        <a href="https://github.com/fy4826" target="_blank"
+          >carbide的github主页</a
         ><span>|</span>
+        <a
+          href="https://fy4826.github.io/LemonMusic/dist/index.html"
+          target="_blank"
+          >LemonMusic(仿网易云音乐移动端)</a
+        >
       </div>
-      <p class="copyright">
-        Copyright ©2019 mi.futurefe.com All Rights Reserved.
-      </p>
+      <p class="copyright">Copyright ©2020 carbide.top All Rights Reserved.</p>
     </div>
   </div>
 </template>
@@ -63,7 +68,9 @@ export default {
           this.$router.push({ name: "index", params: { from: "login" } });
         });
     },
-    register() {},
+    register() {
+      this.$message.error("暂不提供注册服务！");
+    },
   },
 };
 </script>
@@ -129,12 +136,6 @@ export default {
           cursor: pointer;
           .sms {
             color: #ff6600;
-          }
-          .reg {
-            color: #999999;
-            span {
-              margin: 0 7px;
-            }
           }
         }
       }

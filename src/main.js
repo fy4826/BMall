@@ -12,10 +12,7 @@ import {
 
 import 'element-ui/lib/theme-chalk/index.css'
 
-const mock = false;
-if (mock) {
-  require('./mock/api')
-}
+
 axios.defaults.baseURL = '/api';
 axios.defaults.timeout = 8000;
 //接口错误拦截

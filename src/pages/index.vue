@@ -161,22 +161,22 @@ export default {
           {
             id: 30,
             img: "/imgs/item-box-1.png",
-            name: "小米CC9",
+            name: "小米",
           },
           {
             id: 31,
             img: "/imgs/item-box-2.png",
-            name: "小米8青春版",
+            name: "小米CC9e",
           },
           {
-            id: 32,
+            id: 48,
             img: "/imgs/item-box-3.jpg",
             name: "Redmi K20 Pro",
           },
           {
-            id: 33,
-            img: "/imgs/item-box-4.jpg",
-            name: "移动4G专区",
+            id: 45,
+            img: "/imgs/item-box-2.png",
+            name: "红米note7",
           },
         ],
         [0, 0, 0, 0],

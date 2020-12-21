@@ -2,17 +2,20 @@
   <div class="footer">
     <div class="footer-logo">
       <img src="/imgs/logo-footer.png" alt="" />
-      <p>小米商城</p>
+      <p>B-MALL商城</p>
     </div>
     <div class="footer-link">
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <div class="copyright">
-        Copyright ©2019 <span class="domain">mi.futurefe.com</span> All Rights
-        Reserved.
-      </div>
+      <a href="https://github.com/fy4826" target="_blank">carbide的github主页</a
+      ><span>|</span>
+      <a
+        href="https://fy4826.github.io/LemonMusic/dist/index.html"
+        target="_blank"
+        >LemonMusic(仿网易云音乐移动端)</a
+      >
+    </div>
+    <div class="copyright">
+      Copyright ©2020 <span class="domain">carbide.top</span> All Rights
+      Reserved.
     </div>
   </div>
 </template>
@@ -22,10 +25,9 @@ export default {
 };
 </script>
 <style lang='scss' scoped>
-@import "./../assets/scss/config.scss";
 .footer {
   height: 234px;
-  border-top: 4px solid $colorA;
+  border-top: 4px solid #ff6600;
   background-color: #333;
   color: #999;
   font-size: 16px;
@@ -49,9 +51,9 @@ export default {
     }
     margin-bottom: 13px;
   }
-  .copyright{
-    .domain{
-      color: $colorA;
+  .copyright {
+    .domain {
+      color: #ff6600;
     }
   }
 }
