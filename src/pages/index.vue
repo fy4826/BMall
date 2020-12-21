@@ -58,7 +58,7 @@
           v-for="(item, index) in adsList"
           :key="index"
         >
-          <img v-lazy="item.img" alt />
+          <img v-lazy="item.img" alt="" />
         </a>
       </div>
       <div class="banner">
