@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # #b-mall 这是一个基于Vue实现的仿小米商城网站
 
 <a href='https://175.24.113.15/#/index'>项目演示地址</a>
@@ -36,26 +37,9 @@
 ### 
 
 
+=======
+# B-mall
+>>>>>>> 26f51a6f40e6f2ef137504ec6d98e621d11086e9
 
-## Project setup
-```
-npm install
-```
+b-mall是一款Vue高仿小米商城的项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
